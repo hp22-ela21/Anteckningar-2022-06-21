@@ -8,6 +8,12 @@
 * samt blinka var 100:e ms. Via en tredje process kan respektive uppsättning lysdioder
 * togglas från tangentbordet genom att mata in "led1" samt "led2". Inmatning av dessa
 * alias har därmed sammt funktion som respektive tryckknapp.
+*
+* Kompilera koden och skapa en körbar fil döpt main via följande kommando:
+* $ g++ main.cpp -o main -Wall -l gpiod -l pthread
+*
+* Kör sedan programmet via följande kommando:
+* $ ./main
 *****************************************************************************************/
 
 // Inkluderingsdirektiv:
